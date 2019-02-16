@@ -8,6 +8,8 @@ def sigmoid(x):
 def tanh(x):
     return np.tanh(x)
 
+
+'important comment'
 class OutputLayer(Layer):
     def __init__(self, input_shape, y_shape):
         """
